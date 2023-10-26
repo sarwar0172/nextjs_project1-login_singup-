@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(203, 50, 119);
+    height: 100vh;
+}
+
+.main_div{
+   max-width: 50%;
+   background-color: wheat;
+   margin: auto;
+   margin-top: 20%;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.input_feilds{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding: 20px;
+
+}
+.input_feilds input{
+    padding:8px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.singup_button{
+    text-align: center;
+    padding: 20px;
+}
+
+.singup_button button{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+
+}
+.singup_button button:hover{
+    color: white;
+    background-color: black;
+    transition: .3s;
+}
